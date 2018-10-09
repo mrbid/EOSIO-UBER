@@ -1,4 +1,4 @@
-This is a framework for making decentalised Uber/Taxi services on the EOSIO platform.
+This is a framework for making decentralised Uber/Taxi services on the EOSIO platform.
 Using the EOSIO CDT for developing Smart Contracts.
 
 You can find drivers and reviews of drivers for free, anonymously.
