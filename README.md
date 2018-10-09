@@ -18,5 +18,3 @@ You can create a review or update your review (at your own ram cost)
 :: Compile
 
 eosio-cpp eosuber.cpp -o eosuber.wasm --abigen
-
-This is free to use for any type of application, there is no licence but there is one rule, enjoy. ~fletch
