@@ -211,10 +211,10 @@ private:
 
       double getDistanceKM(const double lat1, const double lon1, const double lat2, const double lon2)
 	{
-		const double deglat = deg2rad(lat2 - lat1);
-		const double deglon = deg2rad(lon2 - lon1);
+		const double deglat = deg2rad(lat2 - lat1)*0.5;
+		const double deglon = deg2rad(lon2 - lon1)*0.5;
 
-		return 6371 * (2 * asin(sqrt(sin(deglat*0.5) * sin(deglat*0.5) + cos(deg2rad(lat1)) * cos(deg2rad(lat2)) * sin(deglon*0.5) * sin(deglon*0.5))));
+		return 6371 * (2 * asin(sqrt(sin(deglat) * sin(deglat) + cos(deg2rad(lat1)) * cos(deg2rad(lat2)) * sin(deglon) * sin(deglon))));
 	}
       
       struct driver //128 bytes
