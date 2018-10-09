@@ -237,7 +237,7 @@ private:
             account_name driver; //8 bytes
             std::string review_title; //64 bytes max
             std::string review_body; //439 bytes max
-            char review_score; //1 bytes
+            char review_score; //1 byte
 
             uint64_t primary_key() const{return driver;} //no contribute
       };
