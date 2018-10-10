@@ -18,3 +18,7 @@ You can create a review or update your review (at your own ram cost)
 :: Compile
 
 eosio-cpp eosuber.cpp -o eosuber.wasm --abigen
+
+:: Notes
+
+Some basic cell-space-partitioning would go a long way in the findtaxi() function.
